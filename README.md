@@ -464,3 +464,36 @@ The experiment also provides practical experience with:
       Experimental comparison and analysis.
 
 
+## Repository Structure
+
+```text
+CC-Experiment01-Hypervisor_Analysis/
+├── README.md
+├── .gitignore
+│
+├── results/
+│   ├── comparison.png
+│   ├── cpu_latency.png
+│   ├── events.png
+│   ├── events_per_sec.png
+│   └── overall_evaluation.png
+│
+├── type1/
+│   ├── 01-proxmox-dashboard.png
+│   ├── 02-proxmox-vm-configuration.png
+│   ├── 03-proxmox-vm-running.png
+│   ├── 04-proxmox-ubuntu-console.png
+│   ├── 05-01-proxmox-system-configuration.png
+│   ├── 05-02-proxmox-system-configuration.png
+│   ├── 06-proxmox-sysbench-result.png
+│   ├── 07-01proxmox-resource-monitoring.png
+│   ├── 07-02proxmox-resource-monitoring.png
+│   ├── 07-03proxmox-resource-monitoring.png
+│   └── 07-04proxmox-resource-monitoring.png
+│
+└── type2/
+    ├── 01-vmware-vm-configuration.png
+    ├── 02-vmware-vm-running.png
+    ├── 03-vmware-system-configuration.jpeg
+    └── 04-vmware-sysbench-result.png
+```
